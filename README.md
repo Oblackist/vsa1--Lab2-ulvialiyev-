@@ -19,7 +19,7 @@ Tapşırıqlar:
 ---
 
 Qovluq Strukturu
-
+```
 vsa1--Lab2-ulvialiyev-/
 │
 ├── src/
