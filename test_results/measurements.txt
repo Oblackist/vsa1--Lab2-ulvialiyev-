@@ -1,0 +1,35 @@
+Laboratoriya İşi 2. TEST RESULTS AND PERFORMANCE MEASUREMENTS
+Ad Soyad: Ülvi Əliyev
+Qrup: KOM25A
+Universitet: Qarabağ Universiteti
+Tarix: 20 oktyabr 2026
+
+SYSTEM SPECIFICATIONS
+Computer Model Huawei MateBook D 16
+CPU Intel Core i5 12th Gen 12450H
+RAM 16 GB
+GPU Intel UHD Graphics
+Operating System Windows 11 Home
+Compiler GCC
+Compiler Version 13 2
+Storage Type 512 GB NVMe SSD
+
+Tapşırıq 1: SMART MUSIC PLAYLIST Linked List
+100 element üçün Insert 0.040 ms Search 0.014 ms Delete 0.017 ms
+1000 element üçün Insert 0.370 ms Search 0.138 ms Delete 0.155 ms
+10000 element üçün Insert 3.980 ms Search 1.790 ms Delete 1.850 ms
+
+Tapşırıq 2: HISTORY MANAGER Stack
+100 emeliyyat üçün Push 0.029 ms Pop 0.011 ms
+1000 emeliyyat üçün Push 0.275 ms Pop 0.105 ms
+10000 element üçün Push 3.310 ms Pop 1.180 ms
+
+Tapşırıq 3: AIRPORT CHECK IN QUEUE SYSTEM Queue
+100 element üçün Enqueue 0.033 ms Dequeue 0.013 ms Peek 0.002 ms
+1000 element üçün Enqueue 0.295 ms Dequeue 0.118 ms Peek 0.002 ms
+10000 element üçün Enqueue 3.480 ms Dequeue 1.290 ms Peek 0.003 ms
+
+Qeyd:
+Linked List struktunda sona element əlavə etmək tail pointer istifadə edilmədikdə O(n) vaxt aparır axtariş ve silmə əməliyyatları xətti mürəkkəbliyə malikdir
+Stack Push Pop və Queue Enqueue Dequeue əməliyyatları O(1) vaxt mürəkkəbliyinə malikdir
+512 GB NVMe SSD və 16 GB RAM sistem göstəriciləri xərclərin və gecikmələrin qarşısını alaraq stabil icra müddəti təmin edir.
